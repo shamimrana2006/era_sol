@@ -8,7 +8,7 @@
 #}
 
 # Backend API
-:8005, velvet.api.softvence.app{
+:8005, erasol.api.softvence.app{
     reverse_proxy host.docker.internal:9060
 }
 
