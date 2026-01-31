@@ -25,6 +25,6 @@ COPY --from=build /software/prisma ./prisma
 COPY --from=build /software/prisma.config.ts ./
 
 ENV NODE_ENV=production
-EXPOSE 3200
+EXPOSE 4002
 
 CMD ["npm", "run", "server:run:under:dockerimage"]
